@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
     testCompile "org.jetbrains.spek:spek-api:$spek_version"
     testCompile "org.assertj:assertj-core:3.8.0"
@@ -41,5 +41,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = "4.1"
+    gradleVersion = "4.10"
 }
